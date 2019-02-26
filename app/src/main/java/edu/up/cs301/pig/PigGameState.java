@@ -13,7 +13,7 @@ public class PigGameState extends GameState{
         turn = 0;
         p0_score = 0;
         p1_score = 0;
-        int hold_total = 0;
+        hold_total = 0;
     }
 
     public PigGameState (int t, int p0, int p1, int hold)
