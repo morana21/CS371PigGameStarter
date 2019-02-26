@@ -7,25 +7,28 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1551147219170"
+    timestamp="1551148264708"
     token="-5068950577165677932"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="131" />
+        duration="136" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="15" />
+        duration="22" />
     <task
         name="verifier"
-        duration="4" />
+        duration="9" />
 
     <artifact
         location="D:\New folder\CS371PigGameStarter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\New folder\CS371PigGameStarter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
 
     <build
@@ -72,19 +75,13 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1551146956380"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\New folder\CS371PigGameStarter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1551147219170"
+        timestamp="1551148264708"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\New folder\CS371PigGameStarter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\New folder\CS371PigGameStarter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
     </build>
 
